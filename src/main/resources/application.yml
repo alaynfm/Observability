@@ -1,0 +1,8 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          miIdp:
+            identityprovider:
+              metadata-uri: "classpath:metadata/idp-metadata.xml"
